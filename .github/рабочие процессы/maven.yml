@@ -19,5 +19,9 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: Build with Maven
+<<<<<<< HEAD:.github/workflows/maven.yml
       run: mvn -B -e verify
 
+=======
+      run: mvn -B  -e  verify
+>>>>>>> 5315eb7ee9645cec4c9e50d644565267b8560cc7:.github/рабочие процессы/maven.yml
